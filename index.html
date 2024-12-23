@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEPHYR MC KIT LIST</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #3e5b5b;
+            margin-top: 50px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #3e5b5b;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        nav a {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        .kit-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .kit {
+            background-color: #fff;
+            border: 2px solid #3e5b5b;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .kit h3 {
+            font-size: 1.5em;
+            color: #3e5b5b;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            background-color: #f8c291;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        details {
+            margin-top: 20px;
+        }
+
+        details summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        details ul {
+            margin-top: 10px;
+            padding: 0;
+            list-style-type: none;
+            text-align: left;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #3e5b5b;
+            margin-top: 15px;
+        }
+
+        .kit ul li {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1em;
+            color: #555;
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Kit List</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <h1>ZEPHYR MC</h1>
+
+        <div class="kit-list">
+            <!-- Noob Kit -->
+            <div class="kit">
+                <h3>Noob Kit</h3>
+                <div class="price">Price 5k</div>
+                <details>
+                    <summary>View Item List</summary>
+                    <div class="section-title">Armor:</div>
+                    <ul>
+                        <li>Diamond Helmet (Full Enchant)</li>
+                        <li>Diamond Chestplate (No Enchant)</li>
+                        <li>Diamond Leggings (No Enchant)</li>
+                        <li>Diamond Boots (No Enchant)</li>
+                    </ul>
+                    <div class="section-title">Weapons:</div>
+                    <ul>
+                        <li>Diamond Sword (No Enchant)</li>
+                        <li>Diamond Axe (No Enchant)</li>
+                        <li>Bow (No Enchant)</li>
+                        <li>Arrows (64)</li>
+                    </ul>
+                </details>
+            </div>
+
+            <!-- Pro Kit -->
+            <div class="kit">
+                <h3>Pro Kit</h3>
+                <div class="price">Price 10k</div>
+                <details>
+                    <summary>View Item List</summary>
+                    <div class="section-title">Armor:</div>
+                    <ul>
+                        <li>Diamond Helmet (No Enchant)</li>
+                        <li>Diamond Chestplate (No Enchant)</li>
+                        <li>Diamond Leggings (Full Enchant)</li>
+                        <li>Diamond Boots (No Enchant)</li>
+                    </ul>
+                    <div class="section-title">Weapons:</div>
+                    <ul>
+                        <li>Diamond Sword (No Enchant)</li>
+                        <li>Diamond Axe (No Enchant)</li>
+                    </ul>
+                    <div class="section-title">Tools:</div>
+                    <ul>
+                        <li>Diamond Pickaxe (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Special Items:</div>
+                    <ul>
+                        <li>Experience Bottles (64)</li>
+                        <li>Golden Apples (64)</li>
+                        <li>Diamonds (12)</li>
+                    </ul>
+                </details>
+            </div>
+
+            <!-- Hacker Kit -->
+            <div class="kit">
+                <h3>Hacker Kit</h3>
+                <div class="price">Price 20k</div>
+                <details>
+                    <summary>View Item List</summary>
+                    <div class="section-title">Armor:</div>
+                    <ul>
+                        <li>Diamond Helmet (Full Enchant)</li>
+                        <li>Diamond Chestplate (Full Enchant)</li>
+                        <li>Diamond Leggings (Full Enchant)</li>
+                        <li>Diamond Boots (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Weapons:</div>
+                    <ul>
+                        <li>Diamond Sword (Full Enchant)</li>
+                        <li>Bow (No Enchant)</li>
+                        <li>Trident (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Tools:</div>
+                    <ul>
+                        <li>Diamond Pickaxe (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Special Items:</div>
+                    <ul>
+                        <li>Experience Bottles (64)</li>
+                        <li>Golden Apples (64)</li>
+                        <li>Ender Pearls (16)</li>
+                        <li>Shulker Shells (9)</li>
+                        <li>Gold Blocks (32)</li>
+                        <li>Blaze Rods (16)</li>
+                        <li>Enchanted Golden Apples (32)</li>
+                        <li>Spawners (2)</li>
+                        <li>Skeleton Spawn Eggs (64)</li>
+                        <li>Zombie Spawn Eggs (64)</li>
+                    </ul>
+                </details>
+            </div>
+
+            <!-- Good Kit -->
+            <div class="kit">
+                <h3>Good Kit</h3>
+                <div class="price">Price 30k</div>
+                <details>
+                    <summary>View Item List</summary>
+                    <div class="section-title">Armor:</div>
+                    <ul>
+                        <li>Diamond Helmet (Full Enchant)</li>
+                        <li>Diamond Chestplate (Full Enchant)</li>
+                        <li>Diamond Leggings (Full Enchant)</li>
+                        <li>Diamond Boots (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Weapons:</div>
+                    <ul>
+                        <li>Diamond Sword (Full Enchant)</li>
+                        <li>Bow (Full Enchant)</li>
+                        <li>Diamond Axe (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Tools:</div>
+                    <ul>
+                        <li>Diamond Pickaxe (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Special Items:</div>
+                    <ul>
+                        <li>Ender Pearls (16)</li>
+                        <li>Golden Apples (64)</li>
+                        <li>Experience Bottles (64)</li>
+                        <li>Shulker Shells (21)</li>
+                        <li>Diamond Blocks (32)</li>
+                        <li>Emerald Blocks (32)</li>
+                        <li>Enchanted Golden Apples (32)</li>
+                        <li>Elytra (Full Enchant)</li>
+                    </ul>
+                </details>
+            </div>
+
+            <!-- Legend Kit -->
+            <div class="kit">
+                <h3>Legend Kit</h3>
+                <div class="price">Price 50k</div>
+                <details>
+                    <summary>View Item List</summary>
+                    <div class="section-title">Armor:</div>
+                    <ul>
+                        <li>Diamond Helmet (Full Enchant)</li>
+                        <li>Diamond Chestplate (Full Enchant)</li>
+                        <li>Diamond Leggings (Full Enchant)</li>
+                        <li>Diamond Boots (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Weapons:</div>
+                    <ul>
+                        <li>Diamond Sword (Full Enchant)</li>
+                        <li>Bow (Full Enchant)</li>
+                        <li>Diamond Axe (Full Enchant)</li>
+                        <li>Trident (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Tools:</div>
+                    <ul>
+                        <li>Diamond Pickaxe (Full Enchant)</li>
+                    </ul>
+                    <div class="section-title">Special Items:</div>
+                    <ul>
+                        <li>Experience Bottles (64)</li>
+                        <li>Enchanted Golden Apples (64)</li>
+                        <li>Spawners (2)</li>
+                        <li>Diamond Blocks (64)</li>
+                        <li>Gold Blocks (64)</li>
+                        <li>Emerald Blocks (64)</li>
+                        <li>Shulker Shells (32)</li>
+                        <li>Skeleton Spawn Eggs (64)</li>
+                        <li>Zombie Spawn Eggs (64)</li>
+                        <li>Netherite Scraps (22)</li>
+                        <li>Elytra (Full Enchant)</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
